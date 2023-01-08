@@ -210,7 +210,7 @@ function Kpp() {
                       </div>
                       <div className="w-30 ml-4 mt-1">
                         <div className="font-[690]">Payal Kumari</div>
-                        <div className="text-green-500">@gmail.com</div>
+                        <div className="text-green-500 font-[600]">@gmail.com</div>
                       </div>
                     </div>
                     <div className="flex bg-white rounded-xl py-2 px-3 mb-4">
@@ -219,7 +219,7 @@ function Kpp() {
                       </div>
                       <div className="w-30 ml-4 mt-1">
                         <div className="font-[690]">Payal Kumari</div>
-                        <div className="text-green-500">@gmail.com</div>
+                        <div className="text-green-500 font-[600]">@gmail.com</div>
                       </div>
                     </div>
                     <div className="flex bg-white rounded-xl py-2 px-3 mb-4">
@@ -228,7 +228,7 @@ function Kpp() {
                       </div>
                       <div className="w-30 ml-4 mt-1">
                         <div className="font-[690]">Payal Kumari</div>
-                        <div className="text-green-500">@gmail.com</div>
+                        <div className="text-green-500 font-[600]">@gmail.com</div>
                       </div>
                     </div>
                     <div className="flex bg-white rounded-xl py-2 px-3 mb-4">
@@ -237,7 +237,7 @@ function Kpp() {
                       </div>
                       <div className="w-30 ml-4 mt-1">
                         <div className="font-[690]">Payal Kumari</div>
-                        <div className="text-green-500">@gmail.com</div>
+                        <div className="text-green-500 font-[600]">@gmail.com</div>
                       </div>
                     </div>
                     <div className="flex bg-white rounded-xl py-2 px-3 mb-4">
@@ -246,7 +246,7 @@ function Kpp() {
                       </div>
                       <div className="w-30 ml-4 mt-1">
                         <div className="font-[690]">Payal Kumari</div>
-                        <div className="text-green-500">@gmail.com</div>
+                        <div className="text-green-500 font-[600]">@gmail.com</div>
                       </div>
                     </div>
 
@@ -462,7 +462,7 @@ export const SideBar = () => {
         <div className=" text-sm">
           <div className="p-2.5 mt-1 flex items-center rounded-md ">
             <i className="bi bi-app-indicator px-2 py-1 bg-[#0d53fd] rounded-md"></i>
-            <h1 className="  ml-3 text-sm  font-bold">Tailwindbar</h1>
+            <h1 className="  ml-3 text-sm  font-bold">Navigate</h1>
             <i className="bi bi-x ml-20 cursor-pointer lg:hidden" onclick="Openbar()"></i>
           </div>
 
@@ -495,7 +495,7 @@ export const SideBar = () => {
         </div>
        
         <div className="flex">click here
-        <Link to='/Final'>home</Link>
+        {/* <Link to='/Final'>home</Link> */}
         </div>
         {/* <Routes>
           <Route path="Final" element={<Final />} /> */}
