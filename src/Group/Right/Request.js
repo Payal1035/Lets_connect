@@ -1,8 +1,26 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
+import { useRef } from 'react';
 import Share_Project2 from './Share_Project2';
 
 function Request() {
     const [open, setOpen] = useState(false);
+
+    let menuRef = useRef();
+    
+    useEffect(() => {
+        let handler = (event) => {
+          if (!menuRef.current.contains(event.target)) {
+            setOpen(false);
+          }
+        };
+        document.addEventListener("mousedown", handler);
+
+        return () => {
+          document.removeEventListener("mousedown", handler);
+        };
+    
+      });
 
     return (
         <div>
@@ -27,8 +45,9 @@ function Request() {
                         />
                     </div>
                     <div>
-                        <button onClick={() => setOpen(!open)} className="text-white bg-blue-400 px-5 rounded-xl font-bold h-8 ml-2 mt-3">
-                            + Invite
+                        <button onClick={() => setOpen(!open)} className=" outline-offset-4 outline-green-500 border-2 border-green-700 text-white bg-blue-400 px-5 rounded-xl font-bold h-8 ml-2 mt-3 hover:bg-green-500">
+                            <div className=''>+ Invite</div>
+                            {/* <div className='relative h-8 inline-flex '>+ Invite</div> */}
                         </button>
                     </div>
 
