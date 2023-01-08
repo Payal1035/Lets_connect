@@ -1,0 +1,24 @@
+#Gray{
+    
+        background-color: grey;
+
+}
+
+#Green{
+    
+        background-color: green;
+    
+}
+
+#Blue{
+    
+        background-color: blue;
+
+}
+
+.Page.Green{
+    background-color: green;
+    .bgc{
+
+    }
+}
