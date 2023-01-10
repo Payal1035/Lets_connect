@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:8080/",
-  "homepage": "https://tomerpacific.github.io/Social_media/",
+  "homepage": "https://Payal1035.github.io/Social_media/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
