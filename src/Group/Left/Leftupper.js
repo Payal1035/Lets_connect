@@ -1,11 +1,17 @@
 import React from 'react'
-import { useState } from 'react';
+// import { useState } from 'react';
 import Kpp from '../Newkpp/Kpp';
+import {  useNavigate } from 'react-router-dom';
 
 
 function Leftupper() {
 
-    const [show, hide] = useState(false);
+    // const [show, hide] = useState(false);
+    const navigate = useNavigate();
+
+    const gotoinfo = () => {
+        navigate('Group/Newkpp/Kpp');
+    }
     return (
         <div>
         <div className={"bg-white text-center rounded-lg "}>
@@ -30,14 +36,11 @@ function Leftupper() {
                     <p>Followers</p>
                 </div>
             </div>
-            <div onClick={() => hide(!show)} className=" w-full flex justify-center cursor-pointer text-blue-400 hover:text-green-600 ">
-            
-            <h1  className=" mb-0 mt-2 font-bold pb-3 w-full cursor-pointer animate-bounce">View Info </h1>
+            <div onClick={() => gotoinfo()}>
+            <h1  className=" mb-0 mt-2 font-bold pb-3 w-full cursor-pointer text-blue-400 hover:text-green-400 animate-bounce">View Info </h1>
             </div>
+            {/* <Link to="/about"><h1  className=" mb-0 mt-2 font-bold pb-3 w-full cursor-pointer animate-bounce">View Info </h1></Link> */}
         </div>
-        <div className={(show ? "block" : "hidden") + ' absolute w-[100%] h-full bg-[#eff1f7] z-[3] top-0 rounded-lg mt-2 mb-2'}>
-                <Kpp className=""/>
-            </div>
         </div>
     )
 }

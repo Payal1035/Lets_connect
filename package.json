@@ -2,6 +2,8 @@
   "name": "learning-2",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8080/",
+  "homepage": "https://tomerpacific.github.io/Social_media/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
@@ -36,7 +38,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -57,8 +61,8 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
     "gh-pages": "^4.0.0",
+    "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "tailwind-styled-components": "^2.1.8",
     "tailwindcss": "^3.1.4"
