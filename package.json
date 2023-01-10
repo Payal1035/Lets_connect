@@ -2,7 +2,7 @@
   "name": "connect",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://Payal1035.github.io/Lets_connect",
+  "homepage": "https://Payal1035.github.io/Lets_connect/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",

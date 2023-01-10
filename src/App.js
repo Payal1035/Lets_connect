@@ -46,7 +46,7 @@ import Kpp from './Group/Newkpp/Kpp';
 // import Toogle from './Blue/Toogle';
 // import { UserContext } from "./userContex";
 // import { CompanyContext } from "./companyContext";
-import {HashRouter,Routes,Route} from "react-router-dom";
+import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Main from './Group/Main';
 
 
@@ -58,12 +58,12 @@ function App() {
   return (
     <>
     <>
-      <HashRouter basename="/Lets_connect">
+      <BrowserRouter basename="/Lets_connect">
       <Routes>
         <Route exact path="/" element={<Main />}/>
         <Route exact path="/Kpp" element={<Kpp />}/>
       </Routes>
-      </HashRouter>
+      </BrowserRouter>
       </>
     {/* // <UserContext.Provider value={{ user, setUser }}>
     // <CompanyContext.Provider value={{ company, setCompany }}> */}
