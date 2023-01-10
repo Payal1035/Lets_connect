@@ -58,7 +58,7 @@ function App() {
   return (
     <>
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Lets_connect">
       <Routes>
         <Route exact path="/" element={<Main />}/>
         <Route exact path="/Kpp" element={<Kpp />}/>

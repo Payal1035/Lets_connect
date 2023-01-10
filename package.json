@@ -1,8 +1,8 @@
 {
-  "name": "learning-2",
+  "name": "connect",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://Payal1035.github.io/learning-2",
+  "homepage": "https://Payal1035.github.io/Lets_connect",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
