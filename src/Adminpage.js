@@ -2,10 +2,10 @@ import React from 'react'
 
 function Adminpage() {
     return (
-        <div className='bg-gray-900 w-[100%] h-screen py-9 px-12'>
-            <div className='bg-gray-700 w-[90%] h-5/6 mx-auto text-white rounded-lg p-4 px-6'>
-                <div className='text-2xl'>Share Project</div>
-                <div className='flex gap-3 mt-4 bg-gray-600 p-3 rounded-xl'>
+        <div className='bg-[#eff1f7] w-[100%] h-screen py-9 px-12'>
+            <div className='bg-gray-300 border-[0.5px] border-red-400 w-[90%] h-5/6 mx-auto text-white rounded-lg p-4 px-6'>
+                <div className='text-2xl text-black'>Share Project</div>
+                <div className='flex gap-3 mt-4 bg-[#eff1f7] text-black p-3 rounded-xl'>
                     <div>
                         <img
                             className=" rounded-full object-cover w-12 h-12 relative m-auto "

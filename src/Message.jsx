@@ -1,32 +1,19 @@
 import React, { useState } from "react";
-import { AiFillCaretDown, AiOutlineMessage } from "react-icons/ai";
-import { BiMessage, BiPen, BiPhone, BiSearch, BiSmile, BiUser, BiVideo } from "react-icons/bi";
-import { BsLink, BsThreeDots } from "react-icons/bs";
-import { FaMicrophoneAlt } from "react-icons/fa";
-import { FcAdvertising, FcStackOfPhotos } from "react-icons/fc";
-import { ImCross } from "react-icons/im";
-import { IoIosColorPalette } from "react-icons/io";
-import { MdLocationOn, MdPeopleAlt } from "react-icons/md";
-import { RiBallPenLine, RiCheckDoubleLine } from "react-icons/ri";
-import { ThreeDots } from "react-loader-spinner";
+
+import { BiSearch } from "react-icons/bi";
+import { RiCheckDoubleLine } from "react-icons/ri";
+
 
 function Message() {
   const[open, close] = useState(false)
   return (
-    // <div className="h-full w-full p-40  bg-[#F3F2EF] flex flex-col gap-36  justify-between font-Smooch  items-center  ">
+   
       <div className={(open ? "hidden" : "block") + " text-black bg-slate-100 w-[300px] h-[570px]   px-5 py-6  m-auto rounded-3xl  items-center justify-center   shadow-2xl "}>
         {/* first section  */}
 
         <div className="flex justify-between items-center mb-8 ">
           <BiSearch className="bg-white rounded-full p-2 text-3xl" />
-          {/* <div className="flex bg-white gap-3  p-1 rounded-full">
-            <button className="bg-[#FB7F6B] text-white text-xs rounded-full px-3 py-2">
-              Notification
-            </button>
-            <button className="bg-slate-100] text-black  text-xs rounded-full px-3 py-2">
-              Story{" "}
-            </button>
-          </div> */}
+          
           <button onClick={() => close(!open)} className="cursor-pointer">
           <div className='text-red-400'><i class="bi bi-x-circle"></i></div>
           {/* <RiBallPenLine  className="bg-white rounded-full p-2 text-3xl" /> */}
@@ -174,7 +161,7 @@ function Message() {
         </div> */}
         {/* third section end*/}
       </div>
-    // </div>
+    /* </div> */
   );
 }
 

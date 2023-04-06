@@ -1,11 +1,10 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Leftmid() {
     return (
         <div>
             <div className="bg-white p-6 pb-2 rounded-lg mt-2 ">
-                {/* <h2 className="font-bold mb-5">Follower Request</h2> */}
-
                 <div className="flex gap-2 mb-5">
                     <img
                         className="object-cover rounded-full w-10"
@@ -35,8 +34,9 @@ function Leftmid() {
                         View list
                     </button>
                 </div>
-
+                <NavLink to="/Kpp">
                 <h2 className="text-blue-400 font-bold">Show More</h2>
+                </NavLink>
             </div>
         </div>
     )

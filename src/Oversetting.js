@@ -6,40 +6,14 @@ function Oversetting() {
     return (
         <div className='w-[100%]'>
             <div className='flex w-[100%]'>
-                <div className="p-4 bg-[#262837] text-white w-[35%]">
+                <div className="p-4 bg-white text-black w-[35%]">
                     <div className="font-bold text-xl p-4 pb-2">Settings</div>
                     <div className="p-1 pt-2 w-[100%]">
-                        {/* <div className="bg-[#226fed] p-6 rounded-3xl">
-                            <div className="flex">
-                                <div className="pb-3">
-                                    <div className="box">
-                                        <div className="percent">
-                                            <svg>
-                                                <circle cx="60" cy="60" r="50"></circle>
-                                                <circle cx="60" cy="60" r="50"></circle>
-                                            </svg>
-                                            <div className="number">
-                                                <h3 className="text-white text-xl font-medium -ml-3 -mt-4">75<span>%</span></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="ml-2">
-                                    <div className="font-bold">Profile Information</div>
-                                    <div>Complete your profile to unlock all features</div>
-                                </div>
-                            </div>
-                            <div
-                                className="bg-white  items-center justify-center text-center text-[#226fed] font-bold border-white rounded-3xl p-2 -mt-2">
-                                Complete My Profile
-                            </div>
-                        </div> */}
-
-
+                       
                         <div onClick={() => setOpen(!open)} className="flex  p-2 border-b-2 border-gray-700 mt-1 pb-4 text-sm cursor-pointer">
                             <img src="images/acc.png" alt="" className="w-8 h-9 p-1 " />
                             <div className="flex-cloumn">
-                                <div className="font-medium p-2">Account Settings</div>
+                                <div className="font-bold p-2">Account Settings</div>
                                 <div className="pl-2">Personal  Informations , E- mail</div>
                             </div>
                             <img src="https://img.icons8.com/material-sharp/24/000000/chevron-right.png"
@@ -48,7 +22,7 @@ function Oversetting() {
                         <div className="flex  p-2 border-b-2 border-gray-700 pt-4 mt-1 pb-4 text-sm">
                             <img src="images/fav.png" alt="" className="w-8 h-9 p-1 " />
                             <div className="flex-cloumn">
-                                <div className="font-medium p-2">Appereances</div>
+                                <div className="font-bold p-2">Appereances</div>
                                 <div className="pl-2">Dark and light mode, Font size</div>
                             </div>
                             <img src="https://img.icons8.com/material-sharp/24/000000/chevron-right.png"
@@ -57,7 +31,7 @@ function Oversetting() {
                         <div className="flex  p-2 border-b-2 border-gray-700 mt-1 pb-4 text-sm">
                             <img src="images/security.png" alt="" className="w-8 h-9 p-1 " />
                             <div className="flex-cloumn">
-                                <div className="font-medium p-2">Security</div>
+                                <div className="font-bold p-2">Security</div>
                                 <div className="pl-2">Dark and light mode, Font size</div>
                             </div>
                             <img src="https://img.icons8.com/material-sharp/24/000000/chevron-right.png"
@@ -66,7 +40,7 @@ function Oversetting() {
                         <div className="flex p-2 border-b-2 border-gray-700 mt-1 pb-4 text-sm">
                             <img src="images/fav.png" alt="" className="w-8 h-9 p-1 " />
                             <div className="flex-cloumn">
-                                <div className="font-medium p-2">Appereances</div>
+                                <div className="font-bold p-2">Appereances</div>
                                 <div className="pl-2">Dark and light mode, Font size</div>
                             </div>
                             <img src="https://img.icons8.com/material-sharp/24/000000/chevron-right.png"
@@ -75,7 +49,7 @@ function Oversetting() {
                         <div className="flex  p-2 mt-1 pb-4 text-sm">
                             <img src="images/home.png" alt="" className="w-8 h-9 p-1 " />
                             <div className="flex-cloumn">
-                                <div className="font-medium p-2">Account Settings</div>
+                                <div className="font-bold p-2">Account Settings</div>
                                 <div className="pl-2">Dark and light mode, Font size</div>
                             </div>
                             <img src="https://img.icons8.com/material-sharp/24/000000/chevron-right.png"
@@ -84,8 +58,8 @@ function Oversetting() {
 
                     </div>
                 </div>
-                <div className=" bg-[#262837] text-white p-4 pt-1 md:w-8/12 border-l-2 border-gray-700 w-[70%]">
-                    <div className="text-white font-bold m-8 text-xl  ">Account Settings</div>
+                <div className=" bg-white text-black p-4 pt-1 md:w-8/12 border-l-2 border-gray-700 w-[70%]">
+                    <div className="text-black font-bold m-8 text-xl  ">Account Settings</div>
                     <div>
                         <div className="font-bold m-8  ml-2 pl-6 border-t-2 border-gray-700 pt-4">Personal informations</div>
                         <div className="text-gray-1 ml-8 -mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing.</div>
@@ -96,7 +70,7 @@ function Oversetting() {
                                         First Name
                                     </label>
                                     <input
-                                        className="appearance-none block w-full bg-[#262837] text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                                        className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                                         id="grid-first-name" type="text" placeholder="Jane" />
 
                                 </div>
@@ -105,7 +79,7 @@ function Oversetting() {
                                         Last Name
                                     </label>
                                     <input
-                                        className="appearance-none block w-full bg-[#262837] text-white border border-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                        className="appearance-none block w-full bg-white text-black border border-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                         id="grid-last-name" type="text" placeholder="Doe" />
                                 </div>
                             </div>
@@ -115,7 +89,7 @@ function Oversetting() {
                                         Email
                                     </label>
                                     <input
-                                        className="appearance-none block w-full bg-[#262837] text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                        className="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                         id="grid-gmail" type="email" placeholder="*************@gmial.com" />
 
                                 </div>
@@ -135,7 +109,7 @@ function Oversetting() {
                                             <input
                                                 className="form-check-input appearance-none h-4 w-4 border border-gray-700 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                                                 type="checkbox" value="" id="flexCheckDefault" checked />
-                                            <label className="form-check-label inline-block text-white" for="flexCheckDefault">
+                                            <label className="form-check-label inline-block text-black" for="flexCheckDefault">
                                                 Default checkbox
                                             </label>
                                         </div>
@@ -143,7 +117,7 @@ function Oversetting() {
                                             <input
                                                 className="form-check-input appearance-none h-4 w-4 border border-gray-700 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                                                 type="checkbox" value="" id="flexCheckChecked" />
-                                            <label className="form-check-label inline-block text-white" for="flexCheckChecked">
+                                            <label className="form-check-label inline-block text-black" for="flexCheckChecked">
                                                 Checked checkbox
                                             </label>
                                         </div>
@@ -159,7 +133,7 @@ function Oversetting() {
                                             <input
                                                 className="form-check-input appearance-none h-4 w-4 border border-gray-700 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                                                 type="checkbox" value="" id="flexCheckDefault" />
-                                            <label className="form-check-label inline-block text-white" for="flexCheckDefault">
+                                            <label className="form-check-label inline-block text-black" for="flexCheckDefault">
                                                 Default checkbox
                                             </label>
                                         </div>
@@ -167,7 +141,7 @@ function Oversetting() {
                                             <input
                                                 className="form-check-input appearance-none h-4 w-4 border border-gray-700 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                                                 type="checkbox" value="" id="flexCheckChecked" checked />
-                                            <label className="form-check-label inline-block text-white" for="flexCheckChecked">
+                                            <label className="form-check-label inline-block text-black" for="flexCheckChecked">
                                                 Checked checkbox
                                             </label>
                                         </div>
@@ -183,7 +157,7 @@ function Oversetting() {
                                             <input
                                                 className="form-check-input appearance-none h-4 w-4 border border-gray-700 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                                                 type="checkbox" value="" id="flexCheckDefault" />
-                                            <label className="form-check-label inline-block text-white" for="flexCheckDefault">
+                                            <label className="form-check-label inline-block text-black" for="flexCheckDefault">
                                                 Default checkbox
                                             </label>
                                         </div>
@@ -191,7 +165,7 @@ function Oversetting() {
                                             <input
                                                 className="form-check-input appearance-none h-4 w-4 border border-gray-700 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                                                 type="checkbox" value="" id="flexCheckChecked" checked />
-                                            <label className="form-check-label inline-block text-white" for="flexCheckChecked">
+                                            <label className="form-check-label inline-block text-black" for="flexCheckChecked">
                                                 Checked checkbox
                                             </label>
                                         </div>
@@ -205,12 +179,12 @@ function Oversetting() {
                     </div>
                     <div className="flex pl-6 pt-3 justify-center">
                         <div className="p-4">
-                            <button className="bg-[#262837] hover:bg-[#525298] text-white font-bold py-2 px-12 border border-[#262837] rounded-3xl">
+                            <button className="bg-white hover:bg-[#525298] text-black font-bold py-2 px-12 border border-[#262837] rounded-3xl">
                                 Discard Changes
                             </button>
                         </div>
                         <div className="p-4">
-                            <button className="bg-[#525298] hover:bg-[#525298] text-white font-bold py-2 px-12 border border-[#262837] rounded-3xl">
+                            <button className="bg-[#525298] hover:bg-[#525298] text-black font-bold py-2 px-12 border border-[#262837] rounded-3xl">
                                 Save Changes
                             </button>
                         </div>

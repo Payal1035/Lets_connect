@@ -1,14 +1,9 @@
 import React from 'react';
 import {
-    FcStackOfPhotos,
-    FcVideoFile,
-    FcCalendar,
-    FcBrokenLink,
-    FcLikePlaceholder,
-    FcSettings,
+   FcLikePlaceholder,
 } from "react-icons/fc";
-// import {AiFillSchedule} from "react-icons/ai";
-import { BsPatchCheckFill, BsThreeDots } from "react-icons/bs";
+
+import { BsPatchCheckFill } from "react-icons/bs";
 import { FaRegCommentDots, FaShareSquare, FaRetweet } from "react-icons/fa";
 
 function Posts() {
@@ -65,7 +60,7 @@ function Posts() {
                         </div>
                     </div>
 
-                    {/* 2nd layer ends       */}
+                    
 
                     <div className="bg-white  rounded-lg p-4 pt-2 mb-4">
                         <div className="text-sm">
@@ -124,7 +119,7 @@ function Posts() {
                         </div>
                     </div>
 
-                    {/* 3rd layer ends */}
+                    
     </div>
   )
 }

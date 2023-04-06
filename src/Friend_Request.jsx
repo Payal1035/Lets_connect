@@ -1,13 +1,6 @@
 import React from "react";
-import { AiFillCaretDown } from "react-icons/ai";
-import { BiSmile } from "react-icons/bi";
-import { BsLink, BsThreeDots } from "react-icons/bs";
-import { FaMicrophoneAlt } from "react-icons/fa";
-import { FcAdvertising, FcStackOfPhotos } from "react-icons/fc";
-import { ImCross } from "react-icons/im";
-import { IoIosColorPalette } from "react-icons/io";
-import { MdLocationOn, MdPeopleAlt } from "react-icons/md";
-import { ThreeDots } from "react-loader-spinner";
+import { FcAdvertising } from "react-icons/fc";
+
 
 function Friend_Request() {
   return (

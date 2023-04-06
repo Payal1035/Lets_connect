@@ -27,7 +27,7 @@ function Postapprove() {
                         </div>
                     </div>
                     <div className='my-4 flex flex-col gap-2'>
-                        {/* <div className='flex justify-center bg-gray-800 py-1 border border-gray-600 cursor-pointer'>Community</div> */}
+                       
                         <div className='flex justify-center bg-gray-800 py-1 border border-gray-600 cursor-pointer'>Overview</div>
                     </div>
                     <div className='my-6 flex flex-col gap-3 border-b border-t border-gray-400 py-7 px-3'>
@@ -43,14 +43,7 @@ function Postapprove() {
                         <div className='text-white'><i class="bi bi-stickies-fill"></i></div>
                         <div>Pending Post</div>
                     </div>
-                    {/* <div className='flex gap-3'>
-                        <div className='text white'><i class="bi bi-question-diamond-fill"></i></div>
-                        <div>Questions</div>
-                    </div>
-                    <div className='flex gap-3'>
-                        <div className='text-white'><i class="bi bi-bar-chart-fill"></i></div>
-                        <div>Statistics</div>
-                    </div> */}
+                    
                     </div>
                     <div className='my-6 flex flex-col gap-3 border-b border-gray-400 pb-7 px-3'>
                     <div className='flex gap-3'>
@@ -112,24 +105,14 @@ function Postapprove() {
                                 </div>
                             </div>
 
-                            {/* <div className="flex pl-16 gap-1 justify-between px-5 mb-8 ">
-                        <div className="flex gap-2 ">
-                            <FcLikePlaceholder className="bg-red-500 rounded-full p-1 w-5 h-5" />
-                            <FaRetweet className="bg-green-500 rounded-full p-1 w-5 h-5" />
-                            <FaShareSquare className="bg-blue-500 rounded-full p-1 w-5 h-5" />
-                            <p>241k</p>
-                        </div>
-                        <p className="">45 comments</p>
-                       </div> */}
+                           
 
                             <div className="flex md:pl-16 pl-2 gap-1 justify-between lg:px-5 text-white mt-8 lg:mr-4 mr-2 md:mr-0 mb-2">
                                 <div className='flex gap-1'>
                                 <button className="flex gap-2 items-center py-1 lg:px-7 md:px-4 px-2 bg-gray-700 rounded-xl">
                                         <FcLikePlaceholder className="text-white" /> View Post
                                     </button>
-                                    {/* <button className="flex gap-2 items-center py-1 px-3 border-gray-700 border-2 rounded-xl">
-                                        <FaShareSquare />
-                                    </button> */}
+                                  
                                     
                                 </div>
                                 <div className='flex gap-2'>
@@ -140,12 +123,7 @@ function Postapprove() {
                                     <FaRetweet /> Decline
                                 </button>
                                 </div>
-                                {/* <button className="flex gap-2 items-center py-1 px-7 bg-gray-700 rounded-xl">
-                            <FaRegCommentDots /> Comment
-                        </button> */}
-                                {/* <button className="flex gap-2 items-center py-1 px-3 border-gray-700 border-2 rounded-xl">
-                                    <FaShareSquare />
-                                </button> */}
+                                
                             </div>
                         </div>
                     </div>
@@ -197,24 +175,14 @@ function Postapprove() {
                                 </div>
                             </div>
 
-                            {/* <div className="flex pl-16 gap-1 justify-between px-5 mb-8 ">
-                        <div className="flex gap-2 ">
-                            <FcLikePlaceholder className="bg-red-500 rounded-full p-1 w-5 h-5" />
-                            <FaRetweet className="bg-green-500 rounded-full p-1 w-5 h-5" />
-                            <FaShareSquare className="bg-blue-500 rounded-full p-1 w-5 h-5" />
-                            <p>241k</p>
-                        </div>
-                        <p className="">45 comments</p>
-                       </div> */}
+                           
 
                             <div className="flex md:pl-16 pl-2 gap-1 justify-between lg:px-5 text-white mt-8 lg:mr-4 mr-2 md:mr-0 mb-2">
                                 <div className='flex gap-1'>
                                 <button className="flex gap-2 items-center py-1 lg:px-7 md:px-4 px-2 bg-gray-700 rounded-xl">
                                         <FcLikePlaceholder className="text-white" /> View Post
                                     </button>
-                                    {/* <button className="flex gap-2 items-center py-1 px-3 border-gray-700 border-2 rounded-xl">
-                                        <FaShareSquare />
-                                    </button> */}
+                                   
                                     
                                 </div>
                                 <div className='flex gap-2'>
@@ -225,12 +193,7 @@ function Postapprove() {
                                     <FaRetweet /> Decline
                                 </button>
                                 </div>
-                                {/* <button className="flex gap-2 items-center py-1 px-7 bg-gray-700 rounded-xl">
-                            <FaRegCommentDots /> Comment
-                        </button> */}
-                                {/* <button className="flex gap-2 items-center py-1 px-3 border-gray-700 border-2 rounded-xl">
-                                    <FaShareSquare />
-                                </button> */}
+                                
                             </div>
                         </div>
                     </div>
@@ -282,24 +245,13 @@ function Postapprove() {
                                 </div>
                             </div>
 
-                            {/* <div className="flex pl-16 gap-1 justify-between px-5 mb-8 ">
-                        <div className="flex gap-2 ">
-                            <FcLikePlaceholder className="bg-red-500 rounded-full p-1 w-5 h-5" />
-                            <FaRetweet className="bg-green-500 rounded-full p-1 w-5 h-5" />
-                            <FaShareSquare className="bg-blue-500 rounded-full p-1 w-5 h-5" />
-                            <p>241k</p>
-                        </div>
-                        <p className="">45 comments</p>
-                       </div> */}
+                            
 
                             <div className="flex md:pl-16 pl-2 gap-1 justify-between lg:px-5 text-white mt-8 lg:mr-4 mr-2 md:mr-0 mb-2">
                                 <div className='flex gap-1'>
                                 <button className="flex gap-2 items-center py-1 lg:px-7 md:px-4 px-2 bg-gray-700 rounded-xl">
                                         <FcLikePlaceholder className="text-white" /> View Post
                                     </button>
-                                    {/* <button className="flex gap-2 items-center py-1 px-3 border-gray-700 border-2 rounded-xl">
-                                        <FaShareSquare />
-                                    </button> */}
                                     
                                 </div>
                                 <div className='flex gap-2'>
@@ -310,12 +262,7 @@ function Postapprove() {
                                     <FaRetweet /> Decline
                                 </button>
                                 </div>
-                                {/* <button className="flex gap-2 items-center py-1 px-7 bg-gray-700 rounded-xl">
-                            <FaRegCommentDots /> Comment
-                        </button> */}
-                                {/* <button className="flex gap-2 items-center py-1 px-3 border-gray-700 border-2 rounded-xl">
-                                    <FaShareSquare />
-                                </button> */}
+                               
                             </div>
                         </div>
                     </div>

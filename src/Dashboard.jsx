@@ -48,6 +48,7 @@ import {
 import { Bar, Doughnut } from 'react-chartjs-2';
 import Bargraph from "./Graph/Bargraph";
 import Dough from "./Graph/Doughnut";
+import { NavLink } from "react-router-dom";
 
 Chart.register(
   ArcElement,
@@ -83,26 +84,12 @@ const data = {
       label: 'Total Sales',
       data: [25, 35, 45, 50, 35, 45, 35],
       backgroundColor: 'rgba(255, 99, 132, 0.2)' 
-      // [
-      //   'rgba(255, 99, 132, 0.2)',
-      //   'rgba(54, 162, 235, 0.2)',
-      //   'rgba(255, 206, 86, 0.2)',
-      //   'rgba(75, 192, 192, 0.2)',
-      //   'rgba(153, 102, 255, 0.2)',
-      //   'rgba(255, 159, 64, 0.2)',
-      // ]
+      
       ,
       backgroundColor: 'rgba(255, 99, 132, 0.2)',
       borderColor: 'rgba(255, 99, 132, 1)',
       borderColor: 'rgba(255, 99, 132, 1)',
-      //  [
-      //   'rgba(255, 99, 132, 1)',
-      //   'rgba(54, 162, 235, 1)',
-      //   'rgba(255, 206, 86, 1)',
-      //   'rgba(75, 192, 192, 1)',
-      //   'rgba(153, 102, 255, 1)',
-      //   'rgba(255, 159, 64, 1)',
-      // ],
+      
       borderWidth: 1,
      
     },
@@ -126,10 +113,10 @@ function Dashboard() {
           <div className="mb-4 ">
             <div className="font-bold text-2xl flex">
               <h1 className="">Welcome Back,</h1>
-              <p className="font-medium text-gray-700 ml-1 text-2xl">Nabbhila!</p>
+              <p className="font-medium text-gray-700 ml-1 text-2xl">Payal!</p>
             </div>
             <p className="text-slate-400  text-sm">
-              Look what's happening to your store's update.
+              Look what's happening to your post update.
             </p>
           </div>
 
@@ -142,8 +129,8 @@ function Dashboard() {
                 </h1>
               </div>
               <div className="cn">
-                <h1>$22,045.00</h1>
-                <p className="text-slate-400  text-sm">Total Sales</p>
+                <h1>403</h1>
+                <p className="text-slate-400  text-sm">Unique Visitors</p>
               </div>
             </div>
 
@@ -155,8 +142,8 @@ function Dashboard() {
                 </h1>
               </div>
               <div className="cn">
-                <h1>$22,045.00</h1>
-                <p className="text-slate-400  text-sm">Total Expense</p>
+                <h1>1000</h1>
+                <p className="text-slate-400  text-sm">Post Impression</p>
               </div>
             </div>
 
@@ -168,8 +155,8 @@ function Dashboard() {
                 </h1>
               </div>
               <div className="cn">
-                <h1>$22,045.00</h1>
-                <p className="text-slate-400  text-sm">Total Visitors</p>
+                <h1>51</h1>
+                <p className="text-slate-400  text-sm">Custom Button Clicks</p>
               </div>
             </div>
 
@@ -181,8 +168,8 @@ function Dashboard() {
                 </h1>
               </div>
               <div className="cn">
-                <h1>$22,045.00</h1>
-                <p className="text-slate-400  text-sm">Total Balance</p>
+                <h1>340</h1>
+                <p className="text-slate-400  text-sm">New Followers</p>
               </div>
             </div>
           </div>
@@ -194,7 +181,7 @@ function Dashboard() {
 
             <div className="flex justify-between">
 
-              <div className="flex gap-2 items-center  "><h1 className="">Sale Analytics</h1>
+              <div className="flex gap-2 items-center  "><h1 className="font-bold">Views Analytics</h1>
                 {/* <button className="py-1 px-2 flex items-center text-sm text-gray-500 border-2 border-gray-500 rounded-lg"><GoPrimitiveDot className="text-indigo-700" />  Total Sales </button>
                 <button className="py-1 px-2 flex items-center  text-sm text-gray-500 border-2 border-gray-500 rounded-lg"><GoPrimitiveDot className="text-indigo-700" />Total balance </button> */}
 
@@ -241,7 +228,7 @@ function Dashboard() {
                   <FcAdvertising className="bg-transparent border-2 text-purple-700 rounded-full p-1 w-10 h-10" />
                 </div>
                 <div className="">
-                  <p className="text-slate-400  text-sm">New product</p>
+                  <p className="text-slate-400  text-sm">New post</p>
                   <h1>1202</h1>
                 </div>
               </div>
@@ -251,7 +238,7 @@ function Dashboard() {
                   <MdShoppingCart className="bg-transparent border-2 text-green-700 rounded-full p-1 w-10 h-10" />
                 </div>
                 <div className="">
-                  <p className="text-slate-400  text-sm">Online Order</p>
+                  <p className="text-slate-400  text-sm">Online users</p>
                   <h1>1202</h1>
                 </div>
               </div>
@@ -260,8 +247,8 @@ function Dashboard() {
                   <MdShoppingCart className="bg-transparent border-2 text-red-700 rounded-full p-1 w-10 h-10" />
                 </div>
                 <div className="">
-                  <p className="text-slate-400  text-sm">Offline Orders</p>
-                  <h1>1202</h1>
+                  <p className="text-slate-400  text-sm">Total Orders</p>
+                  <h1>13202</h1>
                 </div>
               </div>
               <div className="bg-white w-2/5 rounded-lg p-3 mr-7 inline-block mb-7 ">
@@ -315,6 +302,7 @@ function Dashboard() {
         {/* profile setting */}
 
         <div className="w-[25%] p-10 bg-white text-black mt-0 justify-end border-gray-700">
+          <NavLink to="/Wsidebar">
           <div className="flex mb-10 justify-between">
             <div className="-mt-4">
               <h1>Profile</h1>
@@ -331,12 +319,13 @@ function Dashboard() {
                 alt="no image"
               />
             </div>
-            <h1 className="text-lg -mt-6">Gadget holic</h1>
-            <p className="text-slate-400  text-sm">Elecronic store</p>
+            <h1 className="text-lg -mt-6 font-bold">Payal Kumari Rajput</h1>
+            <p className="text-slate-400  text-sm">payalkumari@</p>
           </div>
+          </NavLink>
           <div className="flex justify-evenly border-b-2 pb-4 mb-5  border-gray-300 text-center">
             <div className="border-r-2 border-gray-300 pr-10">
-              <p className="text-slate-400  text-sm">Items</p>
+              <p className="text-slate-400  text-sm">Total Posts</p>
               <h1>52,590</h1>
             </div>
             <div className="cn">

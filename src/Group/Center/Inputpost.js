@@ -4,12 +4,8 @@ import {
     FcVideoFile,
     FcCalendar,
     FcBrokenLink,
-    FcLikePlaceholder,
-    FcSettings,
 } from "react-icons/fc";
-// import {AiFillSchedule} from "react-icons/ai";
-import { BsPatchCheckFill, BsThreeDots } from "react-icons/bs";
-import { FaRegCommentDots, FaShareSquare, FaRetweet } from "react-icons/fa";
+
 
 function Inputpost() {
   return (

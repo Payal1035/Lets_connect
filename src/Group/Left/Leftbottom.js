@@ -6,7 +6,7 @@ function Leftbottom() {
         <div className='w-full mt-4 h-full'>
                         <div className='p-2 font-semibold text-lg uppercase'>Requests</div>
                         <div className='bg-white h-30 w-full rounded-lg flex p-2 mb-3'>
-                            <div className='w-[17%] m-2'><img src='./images/OIP.jpg' className='rounded-full border-2 border-gray-400' /></div>
+                            <div className='w-[17%] m-2'><img src="https://miro.medium.com/max/1400/1*ii5coEmEhfnjRQRWp8RjfQ.jpeg" className='rounded-full border-2 border-gray-400' /></div>
                             <div className='m-2 w-[80%]'>
                                 <div className='font-semibold text-lg'>Ravi Raunak</div>
                                 <div className='text-gray-500'>8 Mutual friends</div>
@@ -17,7 +17,7 @@ function Leftbottom() {
                             </div>
                         </div>
                         <div className='bg-white h-30 w-full rounded-lg flex p-2 mb-3'>
-                            <div className='w-[17%] m-2'><img src='./images/OIP.jpg' className='rounded-full border-2 border-gray-400' /></div>
+                            <div className='w-[17%] m-2'><img src="https://miro.medium.com/max/1400/1*ii5coEmEhfnjRQRWp8RjfQ.jpeg" className='rounded-full border-2 border-gray-400' /></div>
                             <div className='m-2 w-[80%]'>
                                 <div className='font-semibold text-lg'>Ravi Raunak</div>
                                 <div className='text-gray-500'>8 Mutual friends</div>
@@ -28,7 +28,7 @@ function Leftbottom() {
                             </div>
                         </div>
                         <div className='bg-white h-30 w-full rounded-lg flex p-2 mb-3'>
-                            <div className='w-[17%] m-2'><img src='./images/OIP.jpg' className='rounded-full border-2 border-gray-400' /></div>
+                            <div className='w-[17%] m-2'><img src="https://miro.medium.com/max/1400/1*ii5coEmEhfnjRQRWp8RjfQ.jpeg" className='rounded-full border-2 border-gray-400' /></div>
                             <div className='m-2 w-[80%]'>
                                 <div className='font-semibold text-lg'>Ravi Raunak</div>
                                 <div className='text-gray-500'>8 Mutual friends</div>

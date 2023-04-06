@@ -60,10 +60,10 @@ Chart.register(
 const datadoughtnut = {
 
 
-  labels: ['Invoiced', 'Collected', 'Outstanding'],
+  labels: ['Views', 'Likes', 'Comments'],
   datasets: [
     {
-      data: [25, 35, 45],
+      data: [75, 35, 15],
       backgroundColor:
         [
           'rgba(44, 101, 241, 1)',
@@ -91,12 +91,7 @@ function Dough() {
         <Doughnut data={datadoughtnut}
           height={400}
           width={400}
-        // options={
-        // cutout='70%',
-        // }
-        // radius= {45}
-
-        />
+       />
 
       </div>
       

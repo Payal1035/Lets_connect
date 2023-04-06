@@ -1,17 +1,14 @@
 import React from 'react'
-
-import { AiOutlineLink } from "react-icons/ai";
-import { BiLinkAlt, BiSearchAlt } from "react-icons/bi";
+import { BiLinkAlt } from "react-icons/bi";
 import { BsChevronDown } from "react-icons/bs";
 import { GoSettings } from 'react-icons/go';
 import { ImEmbed } from "react-icons/im";
-import { MdOutlineContentCopy } from "react-icons/md";
 
 
 function Share_Project2() {
   return (
     <div className=" font-semibold  flex flex-col gap-36  justify-between font-Smooch  items-center  ">
-    {/* <div className="h-full w-full p-40 font-semibold  bg-[#F3F2EF] flex flex-col gap-36  justify-between font-Smooch  items-center  "> */}
+   
     <div className=" text-black bg-white w-[550px]  border-4  px-5 py-6  m-auto rounded  items-center justify-center   shadow-2xl ">
       {/* first section  */}
       <div className="flex gap-5 mb-5">
@@ -44,7 +41,7 @@ function Share_Project2() {
 
       {/* second section  */}
 
-      {/* <h2 className="font-bold mb-1  text-sm">Project link</h2> */}
+      
       <div className="flex gap-2 justify-between my-5">
       <div className="border-gray-300 w-max grow gap-6 text-sm  border-[1px] flex items-center justify-between rounded-lg p-1">
         <input type="text" placeholder="Type your link" />
@@ -70,7 +67,6 @@ function Share_Project2() {
           <img className="rounded-full object-cover w-11 h-11 " src="https://image.cnbcfm.com/api/v1/image/103893236-GettyImages-533810850.jpg?v=1529472521" alt="" />
           <div className="">
             <h1 className="text-lg"> Payal</h1>
-            {/* <p className="text-sm text-gray-500">@olivia</p> */}
           </div>
         </div>
         <button  className="flex items-center w-max border-gray-300 gap-2 text-sm p-1 rounded-lg   " >
@@ -82,7 +78,6 @@ function Share_Project2() {
           <img className="rounded-full object-cover w-11 h-11 " src="https://image.cnbcfm.com/api/v1/image/103893236-GettyImages-533810850.jpg?v=1529472521" alt="" />
           <div className="">
             <h1 className="text-lg"> Payal</h1>
-            {/* <p className="text-sm text-gray-500">@olivia</p> */}
           </div>
         </div>
         <button  className="flex items-center w-max border-gray-300 gap-2 text-sm p-1 rounded-lg   " >
@@ -94,7 +89,6 @@ function Share_Project2() {
           <img className="rounded-full object-cover w-11 h-11 " src="https://image.cnbcfm.com/api/v1/image/103893236-GettyImages-533810850.jpg?v=1529472521" alt="" />
           <div className="">
             <h1 className="text-lg"> Payal</h1>
-            {/* <p className="text-sm text-gray-500">@olivia</p> */}
           </div>
         </div>
         <button  className="flex items-center w-max border-gray-300 gap-2 text-sm p-1 rounded-lg   " >
@@ -106,7 +100,6 @@ function Share_Project2() {
           <img className="rounded-full object-cover w-11 h-11 " src="https://image.cnbcfm.com/api/v1/image/103893236-GettyImages-533810850.jpg?v=1529472521" alt="" />
           <div className="">
             <h1 className="text-lg"> Payal</h1>
-            {/* <p className="text-sm text-gray-500">@olivia</p> */}
           </div>
         </div>
         <button  className="flex items-center w-max border-gray-300 gap-2 text-sm p-1 rounded-lg   " >
