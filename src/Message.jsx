@@ -1,21 +1,20 @@
 import React, { useState } from "react";
-
-import { BiSearch } from "react-icons/bi";
+import { BiSearch, BiXCircle } from "react-icons/bi";
 import { RiCheckDoubleLine } from "react-icons/ri";
 
 
 function Message() {
-  const[open, close] = useState(false)
+  const[open, setOpen] = useState(false);
   return (
    
-      <div className={(open ? "hidden" : "block") + " text-black bg-slate-100 w-[300px] h-[570px]   px-5 py-6  m-auto rounded-3xl  items-center justify-center   shadow-2xl "}>
+      <div className={(open ? "hidden" : "block") + " text-black bg-slate-100 w-[300px] h-[570px] px-5 py-6  m-auto rounded-3xl  items-center justify-center   shadow-2xl "}>
         {/* first section  */}
 
         <div className="flex justify-between items-center mb-8 ">
           <BiSearch className="bg-white rounded-full p-2 text-3xl" />
           
-          <button onClick={() => close(!open)} className="cursor-pointer">
-          <div className='text-red-400'><i class="bi bi-x-circle"></i></div>
+          <button onClick={() => setOpen(!open)} className="cursor-pointer">
+          <div className='text-red-400'><BiXCircle /></div>
           {/* <RiBallPenLine  className="bg-white rounded-full p-2 text-3xl" /> */}
           </button>
         </div>
